@@ -25,31 +25,34 @@ body {
         align-items: center;
         margin: 10px;
         padding: 15px;
-        flex-direction: column;
+        flex-direction: row;
+        flex-wrap: wrap;
         text-align: center;
 
     }
 
-    .box {
+}
 
-        font-family: "Poppins", sans-serif;
-        font-weight: 600;
-        font-style: normal;
+.box {
 
-        display: flex;
-        flex-wrap: wrap;
-        list-style: none;
-        margin: 0;
-        padding: 0;
+    font-family: "Poppins", sans-serif;
+    font-weight: 600;
+    font-style: normal;
 
-        flex-direction: column;
-        width: 100%;
-        gap: 15px;
-        align-items: center;
+    display: flex;
+    list-style: none;
+    margin: 0;
+    padding: 0;
 
-        color: #fff;
+    flex-direction: row;
+    width: 450px;
+    gap: 15px;
 
-    }
+    align-items: center;
+    font-size: 10px;
+    margin-left: 3px;
+
+    color: #fff;
 
 }
 
@@ -161,6 +164,39 @@ button:hover {
 
 }
 
+.header-flex {
+
+    display: flex;
+
+    align-items: center;
+
+    gap: 2px;
+
+
+}
+
+.section-flex {
+
+    display: flex;
+
+    align-items: center;
+
+    gap: 8px;
+
+    justify-content: flex-start;
+
+}
+
+.title-with-icon {
+
+    display: flex;
+
+    align-items: center;
+
+    gap: 6px;
+
+}
+
 .text {
 
     width: 100%;
@@ -182,9 +218,82 @@ img {
     }
 }
 
+.Blate {
+
+    width: 250px;
+    height: 250px;
+    margin: 0;
+    padding: 0;
+    object-fit: contain;
+
+    border-radius: 0;
+
+}
+
+.Blate2 {
+
+    width: 150px;
+    height: 150px;
+    margin: 0;
+    padding: 0;
+    object-fit: contain;
+
+}
+
 .box a {
     color: #000;
     text-decoration: none;
+}
+
+.Mainbox {
+
+    font-family: "Poppins", sans-serif;
+    font-weight: 600;
+    font-style: normal;
+
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    flex-wrap: wrap;
+    list-style: none;
+    width: 300px;
+    margin-right: 60px;
+
+
+}
+
+.Mainbox a {
+
+    color: #000;
+    text-decoration: none;
+
+}
+
+.He {
+
+    display: flex;
+    align-self: flex-start;
+    margin-bottom: 100px;
+
+}
+
+.Gal {
+
+    display: flex;
+    align-self: flex-end;
+    margin-top: 100px;
+
+}
+
+.Cont {
+
+    display: flex;
+    align-self: flex-start;
+    margin-bottom: 100px;
+    justify-content: space-between;
+    margin-right: 30px;
+
 }
 
 .menu-card {
